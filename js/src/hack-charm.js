@@ -3,7 +3,7 @@ window.onload = function () {
   if(canvas.getContext){
     var context = canvas.getContext('2d');
     var width = canvas.width = window.innerWidth;
-    var height = canvas.height = window.innerHeight;
+    var height = canvas.height;
 
     // 用于绘制渐变阴影
     var clearColor = 'rgba(0, 0, 0, .1)';
@@ -47,7 +47,7 @@ window.onload = function () {
     // 自适应
     function resize() {
       width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
+      height = canvas.height;
     }
 
     // 监听窗口大小改变，执行自适应
