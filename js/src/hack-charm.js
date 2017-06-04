@@ -1,9 +1,9 @@
 window.onload = function () {
   var canvas = window.document.getElementById('myCanvas');
+  var width = canvas.width = window.innerWidth;
+  var height = canvas.height;
   if(canvas.getContext){
     var context = canvas.getContext('2d');
-    var width = canvas.width = window.innerWidth;
-    var height = canvas.height;
 
     // 用于绘制渐变阴影
     var clearColor = 'rgba(0, 0, 0, .1)';
