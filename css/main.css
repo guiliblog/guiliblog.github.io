@@ -1696,7 +1696,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fea8ff;
+  background: #12adff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2545,4 +2545,20 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.headband {
+  height: auto;
+}
+.header {
+  padding: 1px 0;
+  background: url("http://or0jd4mtr.bkt.clouddn.com/guiliblog/images/guiliblog-brand.jpg");
+}
+.header-inner {
+  padding: 20px 0 0;
+}
+.brand {
+  background: transparent;
+}
+.posts-collapse {
+  margin-top: 40px;
 }
