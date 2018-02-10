@@ -79,5 +79,5 @@ theme: next
 deploy:
   type: git
   repo:
-    github: git@github.com/guiliblog/guiliblog.github.io.git,master
-    coding: git@git.coding.net/guiliblog/guiliblog.coding.me.git,master
+    github: https://github.com/guiliblog/guiliblog.github.io.git,master
+    coding: https://git.coding.net/guiliblog/guiliblog.coding.me.git,master
